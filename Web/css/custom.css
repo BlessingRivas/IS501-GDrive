@@ -1,0 +1,335 @@
+/******************Fuentes*******************/
+@font-face{
+    src: url("../fonts/Open\ Sans/OpenSans-Light.ttf");
+    font-family: 'Open sans';
+}
+
+
+/****************Inicio Landing Page**********************/
+/******************NavBar*******************/
+#main-nav{
+    height: 68px;
+    background-color: transparent;    
+    padding-right: 0px;
+}
+
+.navbar-brand{
+    font-size: 2em;
+    vertical-align: middle;
+    color: white;
+}
+
+.nav-links{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    color: white; 
+}
+
+.nav-link{
+    color: white;
+}
+
+.nav-link:hover{
+    color:white;
+    text-decoration: underline;
+}
+
+.nav-links li{
+    margin-right: 9px;
+    margin-left: 9px;
+    color: white !important;
+}
+
+.go-drive{
+    margin-right: -0.5% !important;
+    padding: 14px 10px;
+    background-color: #4386fc;    
+}
+
+.go-drive:hover{
+    background-color: #2263D6;
+}
+
+.go-drive a{
+    color: white !important;
+}
+
+#changing-link{
+    display: none;
+    overflow: hidden;
+}
+
+/******************Secciones con imagen*******************/
+#animate-file-types{
+    opacity: 0;
+    /*margin: -15% auto auto auto;*/
+    z-index: 100;
+}
+
+#files-everywhere{
+    background-image: url("../img/intro-1600.jpg");
+    background-attachment: local;
+    background-size: cover;
+    padding: 15% 10% 10% 10%; 
+}
+
+.scroll-arrow{
+    color: white;    
+    font-size: 2.5em;    
+    position: absolute;
+    bottom: 30px;    
+}
+
+.scroll-arrow:hover{   
+    color: #404040;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    width: 60px;
+    margin-left: -18px;
+}
+
+.landing-text{
+    font-family: "Open sans",arial,sans-serif !important;
+    font-weight: 300 !important;
+}
+
+.landing-title{
+    font-size: 3em;
+    color: #404040;
+}
+
+.landing-p{
+    font-size: 1.2em;
+    color: #555555;
+}
+
+#go-drive-link{
+    padding: 16px 26px;    
+    font-size: 1em;
+    font-weight: 600; 
+    color: white;   
+}
+
+#save-any-file{
+    padding: 120px 30px;
+}
+
+.animate-image-logo{
+    position: absolute;
+    top: 20%;
+    left: 40%;    
+}
+
+.animate-image-files{
+    position: absolute;
+    left: 40%;
+}
+
+#surf-guy{
+    height: 500px;
+    padding: 0px;
+    overflow: hidden;     
+}
+
+#surf-guy img{
+    margin-top: -50px;
+}
+
+#sharing-cup{
+    height: 500px;
+    padding: 0px;
+    overflow: hidden;     
+}
+
+#sharing-cup img{
+    margin-top: -50px;
+}
+
+#see-everywhere img{    
+    width: 120%;    
+}
+
+#share-files{
+    padding: 100px 0px;
+}
+
+#share-files div{
+    padding: 0px 210px;
+}
+
+#share-files div .landing-title{
+    margin-top: 30px;
+}
+
+#dropped-stuff{
+    height: 500px;
+    padding: 0px;
+    overflow: hidden;     
+}
+
+#dropped-stuff img{
+    margin-top: -50px;
+}
+
+#start-using{
+    padding: 100px 0px;
+}
+
+#start-using img{
+    width: 8%;
+}
+
+#start-using h1{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+#start-using .go-drive{
+    color: white;
+    font-weight: 600;
+}
+
+/******************Footer*******************/
+.landing-footer{
+    background-color: rgb(249, 249, 249);
+    padding: 15px 50px;
+}
+
+.footer-header{
+    padding: 5px 25px;
+}
+
+.footer-share-sites{
+    font-size: 1em;
+    vertical-align: bottom;    
+}
+
+.footer-body{
+    padding-top: 20px;
+}
+
+.footer-card{
+    padding-left: 15px;    
+}
+
+.thin-card{
+    padding-left: 25px;
+    padding-right: 60px;
+}
+
+.footer-card-title{
+    font-weight: 600;
+}
+
+.footer-card-list{
+    list-style-type: none;
+    padding-left: 0px;
+    font-size: 0.8em;
+}
+
+.footer-bottom{
+    font-size: 0.75em;
+    padding-left: 15px;
+}
+
+#select-lang{
+    width: 250px;
+}
+
+/******************Animaciones*******************/
+@keyframes fadeOutLogo{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+        display: none;
+    }
+}
+
+@keyframes fadeInFileTypes{
+    from{
+        opacity: 0.1;
+        width: 1%;        
+        margin-left: 100%;
+        margin-top: 100%;
+    }
+    to{
+        opacity: 1;
+        width: 100%;        
+        margin-left: 0%;
+        margin-top: 0%;
+    }
+}
+
+@keyframes rollInLink{
+    from{
+        display: block;
+        margin-right: -100%;
+        margin-left: 100%;
+    }
+
+    to{
+        display: block;
+        margin-right: 0%;
+        margin-left: 0%;
+    }
+}
+
+@keyframes rollOutLink{
+    from{
+        display: block;
+        margin-right: 0%;
+        margin-left: 0%;
+    }
+
+    to{
+        display: none;
+        margin-right: -100%;
+        margin-left: 100%;
+    }
+}
+/******************Fin Landing Page**********************/
+
+/******************Inicio LogIn**********************/
+.login-container{
+    font-family: 'Open sans';
+    width: 35%;    
+    margin-top: 90px;
+    border-radius: 10px;
+    border: 0.5px solid lightgray;
+    padding: 50px 30px;
+}
+
+.login-logo{
+    width: 15%;    
+}
+
+.login-form{
+    padding: 30px 0px;
+}
+
+.login-field-email{
+    border: 2px solid blue;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.login-field-title{
+    position: relative;
+    top: -15px;
+    display: inline;    
+}
+
+#forgot-email-link{
+    font-weight: 900;
+    font-size: 0.9em;    
+}
+
+.login-form-link{
+    font-weight: 900;
+    font-size: 0.9em;
+}
+
+/******************Fin LogIn**********************/
+
