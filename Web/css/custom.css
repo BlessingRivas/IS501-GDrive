@@ -60,6 +60,10 @@
 }
 
 /******************Secciones con imagen*******************/
+#fading-div{
+    width:80%;
+}
+
 #animate-file-types{
     opacity: 0;
     /*margin: -15% auto auto auto;*/
@@ -71,13 +75,15 @@
     background-attachment: local;
     background-size: cover;
     padding: 15% 10% 10% 10%; 
+    position: relative;
+    text-align: center;
 }
 
 .scroll-arrow{
     color: white;    
     font-size: 2.5em;    
-    position: absolute;
-    bottom: 30px;    
+    position: absolute;    
+    bottom: 35px;    
 }
 
 .scroll-arrow:hover{   
@@ -112,6 +118,16 @@
 
 #save-any-file{
     padding: 120px 30px;
+}
+
+.text-container{
+    margin-left: 30px;
+    padding-right: 199px;
+}
+
+.img-container{
+    padding: 60px 0px 30px 0px;
+    overflow-x: hidden;
 }
 
 .animate-image-logo{
@@ -289,6 +305,17 @@
         margin-left: 100%;
     }
 }
+
+@keyframes slideFieldTitle{
+    from{
+        top: 1.5em;
+        font-size: 1em;
+    }
+    to{
+        top: -0.8em;
+        font-size: 0.8em;
+    }
+}
 /******************Fin Landing Page**********************/
 
 /******************Inicio LogIn**********************/
@@ -298,11 +325,11 @@
     margin-top: 90px;
     border-radius: 10px;
     border: 0.5px solid lightgray;
-    padding: 50px 30px;
+    padding: 50px 30px 40px 30px;
 }
 
 .login-logo{
-    width: 15%;    
+    width: 20%;
 }
 
 .login-form{
@@ -310,15 +337,82 @@
 }
 
 .login-field-email{
-    border: 2px solid blue;
-    padding: 5px;
+    /*border: 2px solid blue;*/
+    border: 1px solid lightgray;
+    padding: 10px;
     margin-bottom: 10px;
+    position: relative;
+    border-radius: 5px;
 }
 
 .login-field-title{
-    position: relative;
-    top: -15px;
-    display: inline;    
+    font-size: 0.8em;
+    position: absolute;
+    top: -0.8em;    
+    background-color: white;
+    padding-left: 4px;
+    padding-right: 4px;
+    color: blue;
+    display: none;
+    animation: slideFieldTitle 0.2s forwards;
+}
+
+#txt-email{
+    width: 100%;
+    border-style: none;
+    font-size: 0.9em;
+    font-weight: 600;    
+}
+
+#btn-users{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 0.8em;
+    color: black;
+    border-color: lightgray;
+    border-width: 1px;
+    border-radius: 50px;
+    border-style: solid;
+    padding: 5px 20px 5px 5px;
+}
+
+#btn-users:hover{
+    text-decoration: none;
+}
+
+.user-img{
+    width: 10%;
+    background-color:green;
+    color: white;
+    font-weight: 800;
+    float: left;
+    margin-right: 5px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+
+#txt-password{
+    width: 90%;
+    border-style: none;
+    font-size: 0.9em;
+    font-weight: 600;  
+}
+
+.show-hide{
+    font-size: 1.2em;
+    color: lightslategrey;    
+    padding: 0px;
+    text-align: center;
+}
+
+.show-hide:hover{
+    color: gray;
+}
+
+#txt-email:active, #txt-email:focus, #txt-password:active, #txt-password:focus{
+    outline: none;
+    background-color: transparent;
 }
 
 #forgot-email-link{
@@ -331,5 +425,160 @@
     font-size: 0.9em;
 }
 
+.lang-bar{
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+    font-weight: 600;    
+}
+
+.lang-bar a{
+    color: lightslategray;
+    font-size: 0.9em;
+}
+
+.lang-bar select{
+    float: left;
+    margin-right: 30px;
+    margin-left: 10px;
+    font-size: 0.9em;
+    border-style: none;
+}
 /******************Fin LogIn**********************/
+
+/****************Tipos de pantallas*****************/
+
+@media screen and (max-width:768px){
+    /********Landing Page********/ 
+    #fading-div{
+        width: 50%;
+    }   
+
+    #fading-div span{
+        font-size:1.8em !important;        
+    }
+
+    #go-drive-link{
+        font-size: 0.6em;
+    }
+
+    .scroll-arrow{            
+        bottom: 10px;  
+        font-size: 1em;  
+    }
+
+    .scroll-arrow:hover{     
+        border-radius: 50%;
+        width: 30px;
+        margin-left: -10px;
+    }
+
+    .landing-title{
+        font-size: 1.5em;
+    }
+
+    .landing-p{
+        font-size: 1em;
+    }
+
+    .animate-image-logo{
+        animation: none;
+        display: none;
+    }
+
+    .animate-image-files{
+        animation: none;
+        display: block;
+        position: static;
+        text-align: center;
+    }
+
+    .text-container{
+        text-align: center;
+        margin: 30px auto 0px auto;
+        padding: 0px 115px;
+    }
+
+    #animate-file-types{
+        opacity: 1;        
+    }
+
+    #surf-guy img{
+        margin-left: -300px;
+    }
+
+    /*.img-container{
+        padding: 0px;
+        margin-bottom: 30px;
+        margin-top: -100%;
+    }
+
+    .down-container{
+        margin-top: 100%;        
+    }*/
+
+    #see-everywhere img{    
+        width: 100%;  
+    }
+
+    #share-files div img{
+        width: 100%;        
+    }
+
+    #share-files div{
+        padding: 0px;
+    }
+    
+    #share-files div .landing-title{
+        margin-top: 30px;
+    }
+
+    .login-container{
+        font-family: 'Open sans';
+        width: 100%;    
+        margin-top: 30px;        
+        border-style: none;
+        padding: 30px 5px 30px 5px;
+    }
+
+    #txt-password{
+        width: 85%;
+        border-style: none;
+        font-size: 0.8em;
+        font-weight: 600;  
+    }
+
+    #forgot-email-link{
+        font-weight: 900;
+        font-size: 0.7em;    
+    }
+
+    .login-form-link{
+        font-weight: 900;
+        font-size: 0.7em;
+    }
+    
+    .lang-bar{
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: right;
+        font-weight: 600;                
+    }
+
+    .lang-bar a{
+        color: lightslategray;
+        font-size: 0.7em;
+    }
+    
+    .lang-bar select{
+        float: left;
+        margin-right: 30px;
+        margin-left: 10px;
+        font-size: 0.7em;
+        border-style: none;
+    }
+}
+
 

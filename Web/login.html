@@ -3,71 +3,41 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Google Drive</title>
-    <link rel="shortcut icon" href="img/favicon.ico">
-    <link href="css/estilos.css" rel="stylesheet">
-    <link href="css/bootstrap.min.css" rel="stylesheet">  
-
-
+    <title>Iniciar sesión</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 </head>
 <body>
-<br>
-<br>
-<br><br><br>
-
-    <div class="container">
-        <div id="contenedor-form">
-            <div style="text-align: center">
-                <img src="img/google.svg.png" style="width: 80px; height:28px; ">
-            </div>
-            <h2 style="text-align: center">Acceder</h2>
-            <h3 style="text-align: center">Ir a Google Drive</h3>
-            <br>
-            <form action="">
-                <input type="email" name="correo" id="correo" placeholder="Correo electrónico o teléfono">
-            </form>
-            <br>
-            <a href="#">¿Olvidaste el correo electrónico?</a>
-            <br><br><br>
-            <p>¿Esta no es tu computadora? Usa el modo de invitado para
-                 navegar de forma privada. <a href="#">Más información</a> 
-            </p>
-            <br><br>
-            <div>
-                <div style="text-align: left;" class="col-md-2">
-                    <a href="#">Crear Cuenta</a>
-                </div>
-                <div style="text-align: right" class="col-md-2">
-                    <a href="#">Siguiente</a>
-                </div>
-            </div>
+    <div class="container-fluid">
+        <div class="container login-container">
+            <div class="container">
+                <div class="text-center">
+                    <img src="img/brand-logo-2.png" class="login-logo">
+                </div>           
+                <div class="text-center">
+                    <div style="font-size: 1.3em; font-weight: 600;margin-top: 10px;">Iniciar sesión</div>
+                    <div style="font-size: 0.8em; font-weight: 600;margin-top: 10px;">Ir a Google Drive</div>
+                </div>     
+                
+                <form action="" class="login-form">
+                    <div class="login-field-email">
+                        <p class="login-field-title">Correo electrónico o teléfono</p>
+                        <input type="text" name="" id="txt-email" placeholder="Correo electrónico o teléfono">
+                    </div>
+                    <a href="#" id="forgot-email-link">¿Has olvidado tu correo electrónico?</a><br><br>
+                    <p style="font-size: 0.9em">¿No es tu ordenador? Usa el modo invitados para iniciar sesión de forma privada. <a href="#" class="login-form-link">Más información</a></p>
+                    <br>
+                    <a href="#" class="login-form-link">Crear cuenta</a>
+                    <button class="btn btn-primary login-form-link" style="float: right">Siguiente</button>
+                </form>
+            </div>            
         </div>
     </div>
-<br>
-<br>
-
-    <footer>
-        <div class="container">
-            <select name="idioma" id="idioma">
-                <option value="0"></option>
-                <option value="1">Afrikaans</option>
-                <option value="2">english</option>
-                <option value="3">Spanish</option>
-                <option value="4">French</option>
-            </select>
-            <ul>
-                <li>
-                    <a href="https://support.google.com/accounts?hl=es-419" target="_blank">Ayuda</a>
-                </li>
-                <li>
-                    <a href="https://accounts.google.com/TOS?loc=HN&hl=es-419&privacy=true" target="_blank">Privacidad</a>
-                </li>
-                <li>
-                    <a href="https://accounts.google.com/TOS?loc=HN&hl=es-419" target="_blank">Condiciones</a>
-                </li>
-            </ul>
-        </div>
-    </footer>
     
+    <script src="js/jquery.min.js"></script>
+    <script src="js/controlador.js"></script>
 </body>
 </html>
