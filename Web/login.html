@@ -25,19 +25,25 @@
                 <form action="" class="login-form">
                     <div class="login-field-email">
                         <p class="login-field-title">Correo electrónico o teléfono</p>
-                        <input type="text" name="" id="txt-email" placeholder="Correo electrónico o teléfono">
+                        <input type="text" name="" id="txt-email" class='focus-field' placeholder="Correo electrónico o teléfono"> 
+                        <div class="invalid-feedback">
+                            Introduce una direccion de correo electronico o un numero de telefono
+                        </div>                       
                     </div>
                     <a href="#" id="forgot-email-link">¿Has olvidado tu correo electrónico?</a><br><br>
                     <p style="font-size: 0.9em">¿No es tu ordenador? Usa el modo invitados para iniciar sesión de forma privada. <a href="#" class="login-form-link">Más información</a></p>
                     <br>
                     <a href="#" class="login-form-link">Crear cuenta</a>
-                    <button class="btn btn-primary login-form-link" style="float: right">Siguiente</button>
+                    <button class="btn btn-primary login-form-link" id="btn-login1" style="float:right">Siguiente</button>
                 </form>
+                
             </div>            
         </div>
     </div>
     
     <script src="js/jquery.min.js"></script>
     <script src="js/controlador.js"></script>
+    <script src="js/validacion.js"></script>
+
 </body>
 </html>

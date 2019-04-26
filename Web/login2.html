@@ -26,12 +26,15 @@
                 <form action="" class="login-form">
                     <div class="login-field-email">
                         <p class="login-field-title">Introduce tu contraseña</p>                        
-                        <input type="password" name="" id="txt-password" placeholder="Introduce tu contraseña">
+                        <input type="password" name="" id="txt-password" placeholder="Introduce tu contraseña" >
+                        <div class="invalid-feedback">
+                            ingrese password
+                        </div>
                         <button class="btn btn-link show-hide" id="sh-password"><i class="far fa-eye"></i></button>
                     </div><br>
                     <br>                    
                     <a href="#" id="forgot-email-link">¿Has olvidado tu contraseña?</a>                    
-                    <button class="btn btn-primary login-form-link" style="float: right">Siguiente</button>
+                    <button class="btn btn-primary login-form-link" style="float: right" id="btn-login2">Siguiente</button>
                 </form>
             </div>            
         </div>
@@ -52,5 +55,6 @@
     
     <script src="js/jquery.min.js"></script>
     <script src="js/controlador.js"></script>
+    <script src="js/validacion.js"></script>
 </body>
 </html>

@@ -447,6 +447,14 @@
 }
 /******************Fin LogIn**********************/
 
+.focus-field ~ .invalid-feedback{
+    display: block;
+}
+
+.invalid-feedback{
+    display: none;
+}
+
 /****************Tipos de pantallas*****************/
 
 @media screen and (max-width:768px){
