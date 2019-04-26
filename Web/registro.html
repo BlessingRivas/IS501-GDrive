@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crea tu cuenta</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="container signin-container">
+            <div class="container">
+                <div class="text-left">
+                    <img src="img/brand-logo-2.png" class="signin-logo">
+                </div>           
+                <div class="text-left">
+                    <div style="font-size: 1.2em; font-weight: 600;margin-top: 10px;">Crea tu cuenta de Google</div>
+                    <div style="font-size: 0.9em; font-weight: 600;margin-top: 10px;">Ir a Google Drive</div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-12 col-md-7">
+                        <div class="container" style="padding: 30px 0px 0px 0px">
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <div class="field-border">
+                                        <p class="field-title">Nombre</p>
+                                        <input type="text" name="" id="txt-nombre" class="focus-field " placeholder="Nombre">
+                                    </div>
+                                    <div class="invalid-nombre invalid-feedback " id="div-name">
+                                        <i class="fas fa-exclamation-circle"></i> Ingresa tu nombre.
+                                      </div>
+                                </div>
+                          
+                                <div class="col-12 col-md-6">
+                                    <div class="field-border">
+                                        <p class="field-title">Apellido</p>
+                                        <input type="text" name="" id="txt-apellido" class="focus-field" placeholder="Apellido">
+                                    </div>
+                                    <div class="invalid-apellido invalid-feedback" id="div-apellido">
+                                        <i class="fas fa-exclamation-circle"></i> Ingresa tu apellido.
+                                      </div>
+                                </div>
+                                
+                        
+                                <div class="container">
+                                    <div class="field-border">
+                                        <p class="field-title">Nombre de Usuario</p>
+                                        <input type="text" name="" id="txt-nombre-usuario" class="focus-field" placeholder="Nombre de Usuario">
+                                    </div>
+                                    <div class="invalid-nombre-usuario invalid-feedback" id="div-user">
+                                        <i class="fas fa-exclamation-circle"></i> Elige una dirección de Gmail
+                                      </div>
+                                    
+
+                                    <p class="landing-text signin-text">Puedes usar letras, números y signos de puntuación</p>
+                                    <a href="#" class="landing-text signin-text">Usar mi dirección de correo electrónico actual en su lugar</a>
+                                </div>                                
+                            </div><br>
+
+
+
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <div class="field-border">
+                                        <p class="field-title">Contraseña</p>
+                                        <input type="text" name="" id="txt-password-usuario" class="focus-field" placeholder="Contraseña">
+                                    </div>
+                                    <div class="invalid-password-usuario invalid-feedback" id="div-apellido">
+                                        <i class="fas fa-exclamation-circle"></i> Ingresa una Contraseña.
+                                      </div>
+                                </div>
+
+                                <div class="col-12 col-md-6">
+                                    <div class="field-border">
+                                        <p class="field-title">Confirmación</p>
+                                        <input type="text" name="" id="txt-password-confirm" class="focus-field" placeholder="Confirmación">
+                                    </div>
+                                </div>                                
+                            </div>
+                            <p class="landing-text signin-text">Use 8 o más caracteres con una combinación de letras, números y símbolos</p>
+                            <a href="#" class="landing-text signin-text">Acceder a mi cuenta en su lugar</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-5">
+                                                    
+                    </div>
+
+                </div>
+
+                <!--form action="" class="login-form">
+                    <div class="field-border">
+                        <p class="field-title">Correo electrónico o teléfono</p>
+                        <input type="text" name="" id="txt-email" class="focus-field" placeholder="Correo electrónico o teléfono">
+                    </div>
+                    <a href="#" id="forgot-email-link">¿Has olvidado tu correo electrónico?</a><br><br>
+                    <p style="font-size: 0.9em">¿No es tu ordenador? Usa el modo invitados para iniciar sesión de forma privada. <a href="#" class="login-form-link">Más información</a></p>
+                    <br>
+                    <a href="#" class="login-form-link">Crear cuenta</a>
+                    <button class="btn btn-primary login-form-link" style="float: right">Siguiente</button>
+                </form-->
+            </div>
+            <div class="text-center"><button class="btn btn-primary login-form-link" id="btn-registro-1">Siguiente</button></div>            
+        </div>
+    </div>
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/controlador.js"></script>
+    <script src="js/controlador_signin.js"></script>
+    
+</body>
+</html>
