@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2CD70027-7603-08B2-E75A-0107EA3FE6A1" name="TBL_APLICACIONES_TERCEROS">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 01:47:07 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<ordsAlias>table_19</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_APLICACION" id="A680D8F6-B7FF-6057-9D43-BDA220C61868">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 01:47:27 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_APLICACION" id="2545B93F-8122-A906-9347-F6C399AEB240">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 01:47:44 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENLACE_APLICACION" id="09A728A6-3B5C-C235-05E1-68719BF07540">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 01:49:08 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ICONO_APLICACION" id="DEEA2E31-E2BF-EAF3-6E7B-7243606BFDEC">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-04-06 15:18:10 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B04212AD-6ED5-045E-B184-18E94F8E7B82" name="TBL_APLICACIONES_TERCEROS_PK">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 01:47:27 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A680D8F6-B7FF-6057-9D43-BDA220C61868"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="662B290E-740F-51C7-24F3-81296AE183E6" name="TBL_TIPOS_CUENTAS">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 01:43:23 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<ordsAlias>table_18</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TIPO" id="EB111FD4-589C-E019-5AE6-1B9E4BBA9F25">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 01:43:47 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_UNIDAD" id="B26FE63F-6E22-67C6-963D-12A65012CD7D">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 17:14:31 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5DCD6AD7-1923-2177-BC53-B00B455C37D7" referredColumn="9174BB7A-51BA-8AA0-DDCB-B545C453C8C5"/>
+</associations>
+</Column>
+<Column name="ESPACIO_ALMACENAMIENTO" id="C0237299-BDAF-7D1A-EE21-3364B1FBF7C8">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 01:44:13 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRECIO" id="D5C7B0C9-81B4-8830-9E65-5A6921A98959">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 18:08:46 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EA620730-CA56-6294-3CEF-8A350807B988" name="TBL_TIPOS_CUENTAS_PK">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 01:43:47 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB111FD4-589C-E019-5AE6-1B9E4BBA9F25"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CF3272F6-14FE-4BC2-33FC-8D00433FF908" name="TIP_CUE_UNI_FK">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 17:14:31 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B26FE63F-6E22-67C6-963D-12A65012CD7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

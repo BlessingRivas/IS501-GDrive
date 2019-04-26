@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="20CEBD92-C4D7-D94D-992C-AA5830885464" name="TBL_TIPOS_ARCHIVOS">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 01:06:26 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TIPO_ARCHIVO" id="BD6EE265-AE59-FF68-FDBF-D1D8F829631F">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 01:06:48 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_ARCHIVO" id="65BBB78A-299A-45BA-7D50-55163F5D03B7">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 01:07:33 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ICONO" id="F582D86E-E1B4-F722-A615-C15CCDFB8264">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 01:08:01 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E37578AB-5C2A-3E77-F02B-153395598AA3" name="TBL_TIPOS_ARCHIVOS_PK">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 01:06:48 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD6EE265-AE59-FF68-FDBF-D1D8F829631F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

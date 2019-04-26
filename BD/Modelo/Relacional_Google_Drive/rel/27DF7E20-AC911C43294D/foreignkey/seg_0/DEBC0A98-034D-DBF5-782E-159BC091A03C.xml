@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DEBC0A98-034D-DBF5-782E-159BC091A03C" containerWithKeyObject="D0A0308E-5C0C-F741-B220-1EDD3B4AB29E" localFKIndex="ACD6D000-7CC2-AA4B-662F-CACE6DAB2646" name="BEN_X_CUE_BEN_FK">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-04-05 17:30:33 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<referredTableLongName>TBL_BENEFICIOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>92C0971E-AC58-375D-D6AD-C77CA693CF99</referredTableID>
+<keyObject>6B49A369-10B7-87CA-9FEC-588929192D6E</keyObject>
+<referredKeyID>6B49A369-10B7-87CA-9FEC-588929192D6E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_BENEFICIO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

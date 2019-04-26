@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="787B2752-67A5-6B20-BD0A-6F0E9E6FC814" containerWithKeyObject="2584BBCD-84D1-0712-0D16-28FDCD0F37E2" localFKIndex="14C98905-BFCD-3F7C-84CA-901E6D900D49" name="MED_BAN_MON_FK">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 23:29:53 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<referredTableLongName>TBL_MONEDAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EDF945D2-A865-7934-A950-9FE946AA6535</referredTableID>
+<keyObject>A49544AC-FEB1-A5C5-0086-5188C3651167</keyObject>
+<referredKeyID>A49544AC-FEB1-A5C5-0086-5188C3651167</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_MONEDA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

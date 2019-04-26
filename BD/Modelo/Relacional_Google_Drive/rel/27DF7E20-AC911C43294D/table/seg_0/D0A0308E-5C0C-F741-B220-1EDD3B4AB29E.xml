@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D0A0308E-5C0C-F741-B220-1EDD3B4AB29E" name="TBL_BENEFICIOS_X_CUENTA">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-04-05 17:29:30 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<ordsAlias>table_39</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TIPO_CUENTA" id="2D9402FE-C53D-34D6-D191-8E297703AE7C">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-04-05 17:30:05 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CEA03FDD-24C2-362A-0C5A-7D9D5CD038E0" referredColumn="EB111FD4-589C-E019-5AE6-1B9E4BBA9F25"/>
+</associations>
+</Column>
+<Column name="CODIGO_BENEFICIO" id="DAB9BE19-85EF-43EF-977E-CBCED847A1D6">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-04-05 17:30:33 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DEBC0A98-034D-DBF5-782E-159BC091A03C" referredColumn="8B0561D1-B53F-CD67-9EF4-2F4A07C6DA9A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FBE7819D-5FD2-35A6-A2D0-9D4AAB330688" name="BEN_X_CUE_TIP_CUE_FK">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-04-05 17:30:05 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D9402FE-C53D-34D6-D191-8E297703AE7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ACD6D000-7CC2-AA4B-662F-CACE6DAB2646" name="BEN_X_CUE_BEN_FK">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-04-05 17:30:33 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DAB9BE19-85EF-43EF-977E-CBCED847A1D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

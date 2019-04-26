@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C7D44BF6-4114-5683-B916-5C6DC21EE2DB" name="TBL_COPIAS_DE_SEGURIDAD">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 01:36:02 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_COPIA_SEGURIDAD" id="E6CC7BCC-644B-9EFC-9047-B402C47ACA1A">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 01:36:28 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_USUARIO" id="B0F5D394-BBE3-B427-5DDC-912F349BA9E5">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 19:59:52 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AD45E8E7-5F3C-4C5F-3D23-F7E8300D2EA7" referredColumn="F16E48BB-1C77-1358-1F50-9BDE254A21C3"/>
+</associations>
+</Column>
+<Column name="FECHA_HORA_COPIA" id="7195BE37-C901-25CC-0025-0917D278DF50">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 01:36:41 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ARCHIVO_COPIA" id="B233B407-F85F-4FBE-9062-1130209390CE">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 01:37:01 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E94A4515-04B4-5AA7-6E85-5A52D4D025D2" name="TBL_COPIAS_DE_SEGURIDAD_PK">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 01:36:28 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6CC7BCC-644B-9EFC-9047-B402C47ACA1A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3AB9A432-C135-20AA-2080-5EB28036EF56" name="COP_DE_SEG_USU_FK">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 19:59:52 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0F5D394-BBE3-B427-5DDC-912F349BA9E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

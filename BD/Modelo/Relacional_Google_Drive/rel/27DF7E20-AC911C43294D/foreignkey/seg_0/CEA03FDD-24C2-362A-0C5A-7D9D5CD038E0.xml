@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CEA03FDD-24C2-362A-0C5A-7D9D5CD038E0" containerWithKeyObject="D0A0308E-5C0C-F741-B220-1EDD3B4AB29E" localFKIndex="FBE7819D-5FD2-35A6-A2D0-9D4AAB330688" name="BEN_X_CUE_TIP_CUE_FK">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-04-05 17:30:05 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<referredTableLongName>TBL_TIPOS_CUENTAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>662B290E-740F-51C7-24F3-81296AE183E6</referredTableID>
+<keyObject>EA620730-CA56-6294-3CEF-8A350807B988</keyObject>
+<referredKeyID>EA620730-CA56-6294-3CEF-8A350807B988</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_TIPO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

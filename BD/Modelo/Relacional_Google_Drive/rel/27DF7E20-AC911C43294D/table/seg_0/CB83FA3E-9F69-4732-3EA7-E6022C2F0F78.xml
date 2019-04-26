@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CB83FA3E-9F69-4732-3EA7-E6022C2F0F78" name="TBL_APLICACIONES_X_TIPOS">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 01:49:22 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<ordsAlias>table_20</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TIPO_ARCHIVO" id="73BFE2EC-F9F6-7299-C260-38487DA6D6F7">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 20:06:39 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C4C93416-1F90-D84D-7574-95A90CA69F6F" referredColumn="BD6EE265-AE59-FF68-FDBF-D1D8F829631F"/>
+</associations>
+</Column>
+<Column name="CODIGO_APLICACION" id="CFE3EC51-68AF-CCE6-FBE8-AF3DEA48E414">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 20:07:04 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3658978B-23A4-CD9B-9639-70E5AAAC112E" referredColumn="A680D8F6-B7FF-6057-9D43-BDA220C61868"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0CDF68FC-A97A-3066-0C74-4701FE1D8D1A" name="APL_X_TIP_TIP_ARC_FK">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 20:06:39 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73BFE2EC-F9F6-7299-C260-38487DA6D6F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F1D0B7D4-4DAE-94BB-E888-9D9098648D05" name="APL_X_TIP_APL_TER_FK">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 20:07:04 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CFE3EC51-68AF-CCE6-FBE8-AF3DEA48E414"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

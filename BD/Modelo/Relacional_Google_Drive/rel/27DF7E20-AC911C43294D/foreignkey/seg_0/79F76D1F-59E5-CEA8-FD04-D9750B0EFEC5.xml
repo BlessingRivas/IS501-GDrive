@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="79F76D1F-59E5-CEA8-FD04-D9750B0EFEC5" containerWithKeyObject="2584BBCD-84D1-0712-0D16-28FDCD0F37E2" localFKIndex="FCBB26CC-54F0-A31C-2175-163CD305BEEE" name="MED_BAN_ENT_FIN_FK">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 23:03:27 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<referredTableLongName>TBL_ENTIDADES_FINANCIERAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C7559315-F701-20C6-0207-5EC0613F6B07</referredTableID>
+<keyObject>687A6658-3EAE-6AC9-32D0-DD6ECAE9FF17</keyObject>
+<referredKeyID>687A6658-3EAE-6AC9-32D0-DD6ECAE9FF17</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_ENTIDAD</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

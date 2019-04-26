@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7C6E828B-ECA0-72E6-7683-3C8756439D5B" name="TBL_MARCAS">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 01:08:40 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_MARCA" id="FD613A2F-9037-0E6D-C877-AD76EFE2F593">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 01:09:03 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_MARCA" id="BF85D13D-F3B8-8393-33E4-1AE98E3729A9">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 01:09:08 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6FBA3598-90DF-E1C8-558F-E46BD1F811C8" name="TBL_MARCAS_PK">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 01:09:03 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD613A2F-9037-0E6D-C877-AD76EFE2F593"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

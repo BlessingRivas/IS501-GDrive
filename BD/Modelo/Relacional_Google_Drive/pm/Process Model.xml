@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="B56B4E1E-8B3D-1E94-C57A-61E3224D168E">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-06 02:54:28 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

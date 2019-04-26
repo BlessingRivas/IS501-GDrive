@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E8FF8F6B-3DDA-E4A1-6EF8-8C9642C2705F" name="TBL_VIDEOS">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 01:27:06 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ARCHIVO" id="B7E1935A-DF6A-F091-D9C0-C96B5C65BEE6">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 17:53:36 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BBFD46F8-87B3-E424-7328-175FC5EACDEB" referredColumn="D631B8F5-2ABB-D6FC-7479-07C2FDBECF3B"/>
+</associations>
+</Column>
+<Column name="ANCHO" id="DA36640C-C1F8-92DD-AEFC-2C71212CC6D4">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 01:27:21 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ALTO" id="FCF7EB9D-3B9C-33D1-2744-8D3881FB634D">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 01:28:49 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DURACION" id="3B00B238-8FAD-EAE4-344D-C4C97A52DDCB">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 01:29:00 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="49998B16-9E08-238E-FB61-379DAC74A8AA" name="TBL_VIDEOS_PK">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 17:54:12 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7E1935A-DF6A-F091-D9C0-C96B5C65BEE6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8BABCEA9-93D8-11CD-01FF-693126452E80" name="VID_ARC_FK">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 17:53:36 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7E1935A-DF6A-F091-D9C0-C96B5C65BEE6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
