@@ -76,7 +76,11 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<<<<<<< HEAD
 <ind_PK_UK id="FF2D175D-2879-389A-CF5F-BBE6436C5767" name="TBL_CONTENIDOS_SINCRO_PK">
+=======
+<ind_PK_UK id="FF2D175D-2879-389A-CF5F-BBE6436C5767" name="TBL_CONTENIDOS_SINCRONIZACION_PK">
+>>>>>>> a4589982ec34b2899e43754e21a2a5e69e16de17
 <createdBy>Blessing Rivas</createdBy>
 <createdTime>2019-04-06 15:07:46 UTC</createdTime>
 <ownerDesignName>Relacional_Google_Drive</ownerDesignName>

@@ -60,6 +60,7 @@
 <colAssociation fkAssociation="D2A25F25-582C-AC49-3E45-FBA6F29562E3" referredColumn="EB111FD4-589C-E019-5AE6-1B9E4BBA9F25"/>
 </associations>
 </Column>
+<<<<<<< HEAD
 <Column name="CODIGO_SERVICIO" id="27B9109E-2F8B-9016-6AD7-B02D41906896">
 <createdBy>Ariadna Perez</createdBy>
 <createdTime>2019-04-26 22:06:28 UTC</createdTime>
@@ -74,6 +75,8 @@
 <colAssociation fkAssociation="765CB661-AA4B-7E57-29BE-30C9393DC737" referredColumn="C9AC4E20-D2B5-B63A-FD3D-D5C1A949CDFF"/>
 </associations>
 </Column>
+=======
+>>>>>>> a4589982ec34b2899e43754e21a2a5e69e16de17
 <Column name="NOMBRE" id="51218B27-69B4-E066-EE47-7769492FF787">
 <createdBy>Blessing Rivas</createdBy>
 <createdTime>2019-03-06 03:02:05 UTC</createdTime>
@@ -217,6 +220,7 @@
 <colUsage columnID="57655AFE-70CA-47E8-6E98-3166C3DC0F63"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<<<<<<< HEAD
 <ind_PK_UK id="E05F4F09-1194-FA96-7DEB-578593969B0F" name="USU_SER_ELEC_FK">
 <createdBy>Ariadna Perez</createdBy>
 <createdTime>2019-04-26 22:06:28 UTC</createdTime>
@@ -227,5 +231,7 @@
 <colUsage columnID="27B9109E-2F8B-9016-6AD7-B02D41906896"/>
 </indexColumnUsage>
 </ind_PK_UK>
+=======
+>>>>>>> a4589982ec34b2899e43754e21a2a5e69e16de17
 </indexes>
 </Table>
