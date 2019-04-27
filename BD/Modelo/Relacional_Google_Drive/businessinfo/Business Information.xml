@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="203D25D0-F255-1629-8FEE-955270E84EAA">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-06 02:54:28 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

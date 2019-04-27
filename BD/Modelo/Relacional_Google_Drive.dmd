@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Relacional_Google_Drive" id="C60F31FB-5D33-301E-5197-EB52EFDA1975" version="3.5">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-06 02:54:27 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>C60F31FB-5D33-301E-5197-EB52EFDA1975</designId>
+</OSDM_Design>

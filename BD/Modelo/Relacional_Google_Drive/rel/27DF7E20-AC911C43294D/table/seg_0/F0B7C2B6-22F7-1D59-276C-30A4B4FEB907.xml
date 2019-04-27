@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F0B7C2B6-22F7-1D59-276C-30A4B4FEB907" name="TBL_CONTENIDOS_SINCRONIZACION">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 22:12:08 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<ordsAlias>table_38</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_SINCRONIZACION" id="E39FB4E3-88ED-4A13-9C04-D67D9020244E">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 22:13:24 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_ORDENADOR" id="79DB2B17-26C3-51E8-100F-5D747E985382">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-04-06 15:07:17 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B683E98E-D950-B6C8-CF04-50675EE5E176" referredColumn="1AD797AD-9AEE-E224-D2AE-7D629D075C19"/>
+</associations>
+</Column>
+<Column name="CODIGO_CARPETA" id="7B7B8261-6DC6-42CF-FCD5-3F4FD0A6879C">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 22:15:39 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1DF6700B-25A3-0216-6679-356D60E66F36" referredColumn="FC0B75CD-965E-4040-6FCA-A1E8F560A867"/>
+</associations>
+</Column>
+<Column name="CODIGO_ARCHIVO" id="15EA401C-A229-3AA2-7954-A14DBC5210CC">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 22:16:42 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="471DD04F-85AA-F248-936A-0F89DB209396" referredColumn="D631B8F5-2ABB-D6FC-7479-07C2FDBECF3B"/>
+</associations>
+</Column>
+<Column name="FECHA_SINCRONIZACION" id="D5372A7E-55EC-0B7B-29A3-B3E27B4E001C">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-04-06 15:04:58 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FF2D175D-2879-389A-CF5F-BBE6436C5767" name="TBL_CONTENIDOS_SINCRO_PK">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-04-06 15:07:46 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E39FB4E3-88ED-4A13-9C04-D67D9020244E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0046CE73-0A1C-B9B1-577C-3F6BF82D83CB" name="CON_SIN_CAR_FK">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 22:15:39 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B7B8261-6DC6-42CF-FCD5-3F4FD0A6879C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="977D3EED-B2DA-A0CF-8634-3F5BE493FDAF" name="CON_SIN_ARC_FK">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 22:16:42 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="15EA401C-A229-3AA2-7954-A14DBC5210CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AE94BD8D-C566-B42B-2B9C-37D605643DD7" name="CON_SIN_ORD_FK">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-04-06 15:07:17 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79DB2B17-26C3-51E8-100F-5D747E985382"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

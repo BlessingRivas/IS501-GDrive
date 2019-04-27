@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5A9C998A-BF90-AF78-BA58-3ED37DEF9195" name="TBL_PROCESADORES">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 20:13:27 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<ordsAlias>table_23</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PROCESADOR" id="1181EC08-941D-7D52-5689-9E9A9F7FA730">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 20:14:57 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_MARCA" id="864FE007-FB96-D84C-356C-F085747319ED">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 20:17:35 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="53990398-0C65-F234-E8A6-C02E08FD3996" referredColumn="FD613A2F-9037-0E6D-C877-AD76EFE2F593"/>
+</associations>
+</Column>
+<Column name="MODELO" id="966F28CE-CCB6-36DE-94AC-C5C79B21C072">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 20:15:50 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FRECUENCIA" id="CC8378AE-1EA4-DE6A-A145-58FCF4B62E97">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 20:35:43 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4FBCD04A-DA8C-0410-3288-508CBB776E7C" name="TBL_PROCESADORES_PK">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 20:14:57 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1181EC08-941D-7D52-5689-9E9A9F7FA730"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FD532C59-21A3-BE91-0AF4-D5C21DCE6068" name="PRO_MAR_FK">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 20:17:35 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="864FE007-FB96-D84C-356C-F085747319ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

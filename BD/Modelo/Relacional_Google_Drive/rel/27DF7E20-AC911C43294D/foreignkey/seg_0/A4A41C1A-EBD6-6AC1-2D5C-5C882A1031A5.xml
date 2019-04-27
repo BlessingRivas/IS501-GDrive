@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A4A41C1A-EBD6-6AC1-2D5C-5C882A1031A5" containerWithKeyObject="0270E4C8-1639-923F-553F-706DC71FFE7E" localFKIndex="F7D3E649-E764-87C7-943F-E2170569F453" name="ORD_MAR_FK">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 20:04:17 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<referredTableLongName>TBL_MARCAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7C6E828B-ECA0-72E6-7683-3C8756439D5B</referredTableID>
+<keyObject>6FBA3598-90DF-E1C8-558F-E46BD1F811C8</keyObject>
+<referredKeyID>6FBA3598-90DF-E1C8-558F-E46BD1F811C8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_MARCA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

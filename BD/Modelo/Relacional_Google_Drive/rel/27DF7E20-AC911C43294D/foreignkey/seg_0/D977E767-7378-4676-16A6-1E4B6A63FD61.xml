@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D977E767-7378-4676-16A6-1E4B6A63FD61" containerWithKeyObject="E63FED76-C13C-5D09-0248-7599931B8B89" localFKIndex="D71EB770-CCD9-C4DE-BB3D-43E5C99E0190" name="CAR_CAR_FK">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-04-05 17:21:14 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<referredTableLongName>TBL_CARPETAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E63FED76-C13C-5D09-0248-7599931B8B89</referredTableID>
+<keyObject>219DFAAC-E397-BF74-2236-C97BAF1688C3</keyObject>
+<referredKeyID>219DFAAC-E397-BF74-2236-C97BAF1688C3</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>CODIGO_CARPETA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

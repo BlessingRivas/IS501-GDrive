@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A128ACB1-FEE8-F3F1-5CF3-60020A2F9009" name="TBL_IMAGENES">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 01:23:40 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ARCHIVO" id="B9A8BD53-A3A2-6854-B158-264D24813C87">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 17:54:31 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="45C13A46-CC5C-EBCC-B14E-7F74B14D2A12" referredColumn="D631B8F5-2ABB-D6FC-7479-07C2FDBECF3B"/>
+</associations>
+</Column>
+<Column name="ANCHO" id="0E63C80F-84E6-3458-6F27-043E278831E4">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 01:24:02 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ALTO" id="38734F95-5F33-2FB7-C005-B6513BF18771">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 01:24:11 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="56C47767-F639-2063-3654-18DAD78C0F4B" name="TBL_IMAGENES_PK">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 17:56:28 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9A8BD53-A3A2-6854-B158-264D24813C87"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D5A8CD1C-85D1-1E89-3344-727300AC835B" name="IMA_ARC_FK">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 17:54:31 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9A8BD53-A3A2-6854-B158-264D24813C87"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

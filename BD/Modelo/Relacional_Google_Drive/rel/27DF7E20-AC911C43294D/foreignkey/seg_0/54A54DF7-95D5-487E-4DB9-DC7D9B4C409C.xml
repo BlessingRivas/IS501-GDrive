@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="54A54DF7-95D5-487E-4DB9-DC7D9B4C409C" containerWithKeyObject="ED27DA98-C576-BFA8-10C2-7489F367F259" localFKIndex="1EE8B494-7486-0E39-9804-11B864AB636F" name="ACC_TIP_ACC_FK">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 21:14:44 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<referredTableLongName>TBL_TIPOS_ACCIONES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D20E6C26-E976-29C4-C140-2120BBF6B6E8</referredTableID>
+<keyObject>C74B2D5B-C282-B481-F8B7-A691D9F1FF61</keyObject>
+<referredKeyID>C74B2D5B-C282-B481-F8B7-A691D9F1FF61</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_TIPO_ACCION</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

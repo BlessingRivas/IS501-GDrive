@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="D949866B-B552-B9E6-A178-BE577DC202FE" mainViewID="EBD9A9BB-DA27-3DB7-1CDF-27742D1B73FB">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-06 02:54:27 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B4CB94DE-8DE2-9A20-A298-4421D52C33C9" name="TBL_VERSIONES">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 20:29:04 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<ordsAlias>table_28</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_VERSION" id="AE4686FD-749E-EEC2-C0FD-3E95DEF63E7D">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 20:29:30 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_SISTEMA" id="FF52ACDE-4F68-F943-B78F-096443708BDA">
+<createdBy>Ariadna Perez</createdBy>
+<createdTime>2019-04-26 20:40:51 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DACB87CA-E068-D5E2-5414-6C4827760041" referredColumn="0DB71BDA-0211-173B-92AD-9813D67F2CEB"/>
+</associations>
+</Column>
+<Column name="NOMBRE_VERSION" id="246DBA19-1B40-BE6A-5E47-FB431D3FF3CC">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 20:30:00 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="456DCDE2-3B12-5FFF-5A27-0E4A726D8CE9" name="TBL_VERSIONES_PK">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 20:29:30 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE4686FD-749E-EEC2-C0FD-3E95DEF63E7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="93301C3E-741F-E53B-0014-3DB649C3E825" name="VER_SIS_OPE_FK">
+<createdBy>Ariadna Perez</createdBy>
+<createdTime>2019-04-26 20:40:51 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF52ACDE-4F68-F943-B78F-096443708BDA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

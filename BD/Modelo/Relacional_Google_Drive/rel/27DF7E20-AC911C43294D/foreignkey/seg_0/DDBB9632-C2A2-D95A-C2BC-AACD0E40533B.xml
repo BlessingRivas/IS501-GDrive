@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DDBB9632-C2A2-D95A-C2BC-AACD0E40533B" containerWithKeyObject="2584BBCD-84D1-0712-0D16-28FDCD0F37E2" localFKIndex="C43B960F-8559-DC11-C4BC-B2317A28C883" name="MED_BAN_USU_FK">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-04-05 17:32:30 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<referredTableLongName>TBL_USUARIOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>77D344F5-943F-F2C9-326C-3A76C171EBEA</referredTableID>
+<keyObject>8D767915-7006-EDC8-5920-4262D1306CC0</keyObject>
+<referredKeyID>8D767915-7006-EDC8-5920-4262D1306CC0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_USUARIO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AD45E8E7-5F3C-4C5F-3D23-F7E8300D2EA7" containerWithKeyObject="C7D44BF6-4114-5683-B916-5C6DC21EE2DB" localFKIndex="3AB9A432-C135-20AA-2080-5EB28036EF56" name="COP_DE_SEG_USU_FK">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 19:59:52 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<referredTableLongName>TBL_USUARIOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>77D344F5-943F-F2C9-326C-3A76C171EBEA</referredTableID>
+<keyObject>8D767915-7006-EDC8-5920-4262D1306CC0</keyObject>
+<referredKeyID>8D767915-7006-EDC8-5920-4262D1306CC0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CODIGO_USUARIO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

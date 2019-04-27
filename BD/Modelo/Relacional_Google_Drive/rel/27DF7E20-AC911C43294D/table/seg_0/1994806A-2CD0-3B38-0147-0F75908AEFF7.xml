@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1994806A-2CD0-3B38-0147-0F75908AEFF7" name="TBL_LUGARES">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-06 03:06:12 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_LUGAR" id="1CD6F5B0-E153-9FC9-B210-9414234C5426">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-06 03:06:31 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_LUGAR_PADRE" id="99000A24-B3BF-F8B7-EAFD-1EDCE52043C3">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 16:49:58 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="52977A9D-1C66-294C-3E0D-CEEB27229922" referredColumn="1CD6F5B0-E153-9FC9-B210-9414234C5426"/>
+</associations>
+</Column>
+<Column name="NOMBRE_LUGAR" id="E3DD80A3-F1ED-441B-5D7D-8BB865800EE8">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-06 03:06:52 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LONGITUD" id="8073C2A4-E017-1FEC-7311-DEFF7CEA113B">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-06 03:07:02 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LATITUD" id="F0C9A076-6739-8F55-3940-A55145A1D1F7">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-06 03:07:11 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C3B811E1-5E82-2B18-A416-AB4A54E21AFE" name="TBL_LUGARES_PK">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-06 03:06:31 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1CD6F5B0-E153-9FC9-B210-9414234C5426"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="227FF860-1410-8A20-FC67-5682BDC401FB" name="LUG_LUG_FK">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-08 16:49:58 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99000A24-B3BF-F8B7-EAFD-1EDCE52043C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8A7E2315-1684-253F-B538-8B7BB0B35ECD" name="TBL_TIPOS_COMPARTIDOS">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-06 03:04:13 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TIPO_COMPARTIDO" id="E6276436-A34B-9A93-4B4F-A4E050D894C8">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-06 03:04:52 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_COMPARTIDO" id="14BE387B-CD49-ACA8-7AEA-77107C109C45">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-06 03:05:18 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="637008E3-7FA9-A8B3-2985-A646C958ED12" name="TBL_COMPARTIDOS_PK">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-03-06 03:04:52 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6276436-A34B-9A93-4B4F-A4E050D894C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,7 @@
+insert into TBL_MARCAS (CODIGO_MARCA, NOMBRE_MARCA) values (1, 'HP');
+insert into TBL_MARCAS (CODIGO_MARCA, NOMBRE_MARCA) values (2, 'TOSHIBA');
+insert into TBL_MARCAS (CODIGO_MARCA, NOMBRE_MARCA) values (3, 'ASUS');
+insert into TBL_MARCAS (CODIGO_MARCA, NOMBRE_MARCA) values (4, 'DELL');
+insert into TBL_MARCAS (CODIGO_MARCA, NOMBRE_MARCA) values (5, 'LENOVO');
+insert into TBL_MARCAS (CODIGO_MARCA, NOMBRE_MARCA) values (6, 'INTEL');
+insert into TBL_MARCAS (CODIGO_MARCA, NOMBRE_MARCA) values (7, 'AMD');
