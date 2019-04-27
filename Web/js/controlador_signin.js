@@ -9,10 +9,12 @@ $("#btn-registro-1").click(function(){
                  var v_apellido=validar("apellido");
                  var v_nombre_usuario=validar("nombre-usuario");
                  var v_password=validar("password-usuario");
+                 var v_confirmacion=validar("password-confirm");
+                 var v_comparacion=comparar();
 
     console.log(parametros);
 
-    if(v_nombre && v_apellido && v_nombre_usuario && v_password)
+    if(v_nombre && v_apellido && v_nombre_usuario && v_password && v_confirmacion && v_comparacion)
     {
         $.ajax({
             url:"./ajax/loguear.php",
@@ -104,4 +106,11 @@ function validarFecha(){
         $('.invalid-fecha').css('display','block');
         return false;
     }
+}
+
+function comparar(){
+    if ($("#txt-password-usuario").val() == $("#txt-password-confirm").val())
+    return true;
+    else 
+    return false;
 }
