@@ -1,0 +1,10 @@
+insert into TBL_COPIAS_DE_SEGURIDAD (codigo_copia_seguridad, codigo_usuario, fecha_hora_copia) values (1, 37, '3/1/2019');
+insert into TBL_COPIAS_DE_SEGURIDAD (codigo_copia_seguridad, codigo_usuario, fecha_hora_copia) values (2, 16, '8/11/2018');
+insert into TBL_COPIAS_DE_SEGURIDAD (codigo_copia_seguridad, codigo_usuario, fecha_hora_copia) values (3, 33, '11/8/2018');
+insert into TBL_COPIAS_DE_SEGURIDAD (codigo_copia_seguridad, codigo_usuario, fecha_hora_copia) values (4, 29, '1/18/2019');
+insert into TBL_COPIAS_DE_SEGURIDAD (codigo_copia_seguridad, codigo_usuario, fecha_hora_copia) values (5, 9, '8/20/2018');
+insert into TBL_COPIAS_DE_SEGURIDAD (codigo_copia_seguridad, codigo_usuario, fecha_hora_copia) values (6, 22, '9/8/2018');
+insert into TBL_COPIAS_DE_SEGURIDAD (codigo_copia_seguridad, codigo_usuario, fecha_hora_copia) values (7, 6, '9/25/2018');
+insert into TBL_COPIAS_DE_SEGURIDAD (codigo_copia_seguridad, codigo_usuario, fecha_hora_copia) values (8, 3, '7/22/2018');
+insert into TBL_COPIAS_DE_SEGURIDAD (codigo_copia_seguridad, codigo_usuario, fecha_hora_copia) values (9, 5, '3/10/2019');
+insert into TBL_COPIAS_DE_SEGURIDAD (codigo_copia_seguridad, codigo_usuario, fecha_hora_copia) values (10, 48, '4/8/2019');

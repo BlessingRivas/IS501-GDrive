@@ -34,3 +34,23 @@ $("#sh-password").click(function(){
         $("#txt-password").focus();
     }
 });
+
+$("#btn-aceptar-modalplan1").click(function(){
+    $("#Modal2-plan1").modal("show");
+    $("#Modal1-plan1").modal("hide");
+});
+
+$("#btn-aceptar-modal2plan1").click(function(){
+    $("#Modal3-plan1").modal("show");
+    $("#Modal2-plan1").modal("hide");
+});
+
+$("#btn-aceptar-modalplan2").click(function(){
+    $("#Modal2-plan2").modal("show");
+    $("#Modal1-plan2").modal("hide");
+});
+
+$("#btn-aceptar-modal2plan2").click(function(){
+    $("#Modal3-plan2").modal("show");
+    $("#Modal2-plan2").modal("hide");
+});

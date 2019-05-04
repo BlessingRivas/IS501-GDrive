@@ -1,0 +1,10 @@
+insert into TBL_IMAGENES (codigo_archivo, ancho, alto) values (19, 772, 876);
+insert into TBL_IMAGENES (codigo_archivo, ancho, alto) values (2, 1558, 608);
+insert into TBL_IMAGENES (codigo_archivo, ancho, alto) values (12, 1019, 981);
+insert into TBL_IMAGENES (codigo_archivo, ancho, alto) values (21, 1433, 87);
+insert into TBL_IMAGENES (codigo_archivo, ancho, alto) values (20, 1059, 288);
+insert into TBL_IMAGENES (codigo_archivo, ancho, alto) values (5, 659, 327);
+insert into TBL_IMAGENES (codigo_archivo, ancho, alto) values (30, 997, 310);
+insert into TBL_IMAGENES (codigo_archivo, ancho, alto) values (6, 172, 674);
+insert into TBL_IMAGENES (codigo_archivo, ancho, alto) values (16, 154, 595);
+insert into TBL_IMAGENES (codigo_archivo, ancho, alto) values (4, 325, 83);

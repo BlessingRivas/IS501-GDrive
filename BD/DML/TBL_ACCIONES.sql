@@ -1,0 +1,15 @@
+insert into TBL_ACCIONES (codigo_accion, codigo_tipo_accion, codigo_carpeta_origen, codigo_carpeta_destino, codigo_archivo_origen, codigo_archivo_destino, fecha) values (1, 4, 20, 3, 24, 14, '4/18/2019');
+insert into TBL_ACCIONES (codigo_accion, codigo_tipo_accion, codigo_carpeta_origen, codigo_carpeta_destino, codigo_archivo_origen, codigo_archivo_destino, fecha) values (2, 2, 14, 20, 6, 8, '7/15/2018');
+insert into TBL_ACCIONES (codigo_accion, codigo_tipo_accion, codigo_carpeta_origen, codigo_carpeta_destino, codigo_archivo_origen, codigo_archivo_destino, fecha) values (3, 2, 14, 25, 24, 11, '7/6/2018');
+insert into TBL_ACCIONES (codigo_accion, codigo_tipo_accion, codigo_carpeta_origen, codigo_carpeta_destino, codigo_archivo_origen, codigo_archivo_destino, fecha) values (4, 4, 9, 6, 21, 19, '11/25/2018');
+insert into TBL_ACCIONES (codigo_accion, codigo_tipo_accion, codigo_carpeta_origen, codigo_carpeta_destino, codigo_archivo_origen, codigo_archivo_destino, fecha) values (5, 1, 27, 2, 31, 31, '12/29/2018');
+insert into TBL_ACCIONES (codigo_accion, codigo_tipo_accion, codigo_carpeta_origen, codigo_carpeta_destino, codigo_archivo_origen, codigo_archivo_destino, fecha) values (6, 1, 17, 1, 39, 22, '3/15/2019');
+insert into TBL_ACCIONES (codigo_accion, codigo_tipo_accion, codigo_carpeta_origen, codigo_carpeta_destino, codigo_archivo_origen, codigo_archivo_destino, fecha) values (7, 1, 11, 9, 12, 16, '8/20/2018');
+insert into TBL_ACCIONES (codigo_accion, codigo_tipo_accion, codigo_carpeta_origen, codigo_carpeta_destino, codigo_archivo_origen, codigo_archivo_destino, fecha) values (8, 3, 21, 19, 34, 35, '8/16/2018');
+insert into TBL_ACCIONES (codigo_accion, codigo_tipo_accion, codigo_carpeta_origen, codigo_carpeta_destino, codigo_archivo_origen, codigo_archivo_destino, fecha) values (9, 1, 13, 12, 19, 26, '7/22/2018');
+insert into TBL_ACCIONES (codigo_accion, codigo_tipo_accion, codigo_carpeta_origen, codigo_carpeta_destino, codigo_archivo_origen, codigo_archivo_destino, fecha) values (10, 3, 24, 21, 19, 6, '7/26/2018');
+insert into TBL_ACCIONES (codigo_accion, codigo_tipo_accion, codigo_carpeta_origen, codigo_carpeta_destino, codigo_archivo_origen, codigo_archivo_destino, fecha) values (11, 4, 27, 16, 22, 19, '3/9/2019');
+insert into TBL_ACCIONES (codigo_accion, codigo_tipo_accion, codigo_carpeta_origen, codigo_carpeta_destino, codigo_archivo_origen, codigo_archivo_destino, fecha) values (12, 2, 14, 2, 14, 5, '11/14/2018');
+insert into TBL_ACCIONES (codigo_accion, codigo_tipo_accion, codigo_carpeta_origen, codigo_carpeta_destino, codigo_archivo_origen, codigo_archivo_destino, fecha) values (13, 2, 24, 2, 15, 33, '5/20/2018');
+insert into TBL_ACCIONES (codigo_accion, codigo_tipo_accion, codigo_carpeta_origen, codigo_carpeta_destino, codigo_archivo_origen, codigo_archivo_destino, fecha) values (14, 3, 30, 2, 10, 24, '8/30/2018');
+insert into TBL_ACCIONES (codigo_accion, codigo_tipo_accion, codigo_carpeta_origen, codigo_carpeta_destino, codigo_archivo_origen, codigo_archivo_destino, fecha) values (15, 2, 7, 7, 4, 3, '6/18/2018');
