@@ -1,0 +1,111 @@
+.titulo{
+    font-size: 2.25rem;
+    font-weight: 400;
+    line-height: 2.75rem;
+    color: #3c4043;
+    margin: 50px 0 0 0;
+    text-align: center;
+}
+
+.titulo2{
+    font-family: 'Google Sans',Roboto,Arial,sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2rem;
+    color: #3c4043;
+    margin: 10px 0 26px 0;
+    
+    text-align: center;
+}
+
+
+.plan{
+    background-color: white;  
+    border-radius: 5px;
+-webkit-box-shadow: -4px 15px 14px -9px rgba(0,0,0,0.75);
+-moz-box-shadow: -4px 15px 14px -9px rgba(0,0,0,0.75);
+box-shadow: -4px 15px 14px -9px rgba(0,0,0,0.75);
+margin-bottom: 50px;
+margin-left: 45px;
+margin-right: 45px;
+padding-top: 50px;
+padding-bottom: 50px;
+text-align: center;
+}
+
+.planes_estilo{
+font-family: 'Google Sans',Roboto,Arial,sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 2.5rem;
+}
+
+.planes_estilo2{
+letter-spacing: .00625em;
+    font-family: 'Google Sans',Roboto,Arial,sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    color: #3c4043;
+    font-weight: 400;
+}
+
+.planbajo{
+    text-align: left;
+    }
+
+    .btn-gratis{
+        background-color: white;
+        border-bottom-color: #3c4043;
+        color: #3c4043;
+        padding: 5px 15px 5px 15px;
+        border-radius: 10px;
+        }
+
+        .btn-100{
+            background-color:#108fe8;
+            border-bottom-color: #3c4043;
+            color: white;
+            padding: 5px 15px 5px 15px;
+            border-radius: 10px;
+            }
+
+            .btn-200{
+                background-color:white;
+                border-bottom-color: #3c4043;
+                color: #108fe8;
+                padding: 5px 15px 5px 15px;
+                border-radius: 10px;
+                }
+
+            .icon2
+            {
+                padding-right: 45px;
+                color:#108fe8;
+            }
+
+            .icon3
+                {   
+                    padding-right: 75px;
+                    color:#108fe8;
+                }
+                .icon1
+                {   
+                    padding-right: 35px;
+                    color:#108fe8;
+                }
+
+        .size_plan
+        {   
+            font-family: 'Google Sans',Roboto,Arial,sans-serif;
+           font-size: 0.8rem;
+            }
+
+
+            .borderColor{
+
+            border-left: red 5px solid;
+            border-right: blue 5px solid;
+            border-bottom: yellow 5px solid;
+            border-top: green 5px solid;
+        }

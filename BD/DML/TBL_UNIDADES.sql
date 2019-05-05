@@ -1,4 +1,4 @@
-insert into TBL_UNIDADES (CODIGO_UNIDADES, NOMBRE_UNIDAD, ABREVIATURA) values (1, 'Megen', 'Piggy');
-insert into TBL_UNIDADES (CODIGO_UNIDADES, NOMBRE_UNIDAD, ABREVIATURA) values (2, 'Berkie', 'Dawna');
-insert into TBL_UNIDADES (CODIGO_UNIDADES, NOMBRE_UNIDAD, ABREVIATURA) values (3, 'Odetta', 'Isa');
-insert into TBL_UNIDADES (CODIGO_UNIDADES, NOMBRE_UNIDAD, ABREVIATURA) values (4, 'Olivier', 'Drud');
+insert into TBL_UNIDADES (CODIGO_UNIDAD, NOMBRE_UNIDAD, ABREVIATURA) values (1, 'Byte', 'Byte');
+insert into TBL_UNIDADES (CODIGO_UNIDAD, NOMBRE_UNIDAD, ABREVIATURA) values (2, 'Kilobyte', 'KB');
+insert into TBL_UNIDADES (CODIGO_UNIDAD, NOMBRE_UNIDAD, ABREVIATURA) values (3, 'Megabyte', 'MB');
+insert into TBL_UNIDADES (CODIGO_UNIDAD, NOMBRE_UNIDAD, ABREVIATURA) values (4, 'Gigabyte', 'GB');
