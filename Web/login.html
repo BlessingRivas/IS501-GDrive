@@ -11,10 +11,11 @@
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 </head>
 <body>
-
-    <a href="almacenamiento.php">ALMACENAMIENTO</a>
     <div class="container-fluid">
         <div class="container login-container">
+            <div class="loading-container">
+                <div class="loading-bar"></div>
+            </div>
             <div class="container">
                 <div class="text-center">
                     <img src="img/brand-logo-2.png" class="login-logo">
@@ -22,30 +23,31 @@
                 <div class="text-center">
                     <div style="font-size: 1.3em; font-weight: 600;margin-top: 10px;">Iniciar sesión</div>
                     <div style="font-size: 0.8em; font-weight: 600;margin-top: 10px;">Ir a Google Drive</div>
-                </div>     
+                </div>
                 
                 <form action="" class="login-form">
-                    <div class="login-field-email">
-                        <p class="login-field-title">Correo electrónico o teléfono</p>
-                        <input type="text" name="" id="txt-email" class='focus-field' placeholder="Correo electrónico o teléfono"> 
-                        <div class="invalid-feedback">
-                            Introduce una direccion de correo electronico o un numero de telefono
-                        </div>                       
+                    <div class="field-border">
+                        <p class="field-title">Correo electrónico o teléfono</p>
+                        <input type="text" id="txt-email" class="focus-field" placeholder="Correo electrónico o teléfono">
                     </div>
+                    <div class="invalid-feedback invalid-email">
+                        <i class="fas fa-exclamation-circle"></i> Introduce una dirección de correo electrónico o un número de teléfono
+                    </div>
+                    <div class="invalid-feedback wrong-email">
+                        <i class="fas fa-exclamation-circle"></i> Correo electrónico o número de teléfono inválido
+                    </div>                    
                     <a href="#" id="forgot-email-link">¿Has olvidado tu correo electrónico?</a><br><br>
                     <p style="font-size: 0.9em">¿No es tu ordenador? Usa el modo invitados para iniciar sesión de forma privada. <a href="#" class="login-form-link">Más información</a></p>
                     <br>
-                    <a href="#" class="login-form-link">Crear cuenta</a>
-                    <button class="btn btn-primary login-form-link" id="btn-login1" style="float:right">Siguiente</button>
+                    <a href="registro.html" class="login-form-link">Crear cuenta</a>
+                    <button class="btn btn-primary login-form-link" style="float: right" id="btn-login1">Siguiente</button>
                 </form>
-                
             </div>            
         </div>
     </div>
     
     <script src="js/jquery.min.js"></script>
-    <script src="js/controlador.js"></script>
-    <script src="js/validacion.js"></script>
-
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/controlador.js"></script>    
 </body>
 </html>
