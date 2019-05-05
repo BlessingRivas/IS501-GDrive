@@ -8,7 +8,7 @@
 <referredTableID>E63FED76-C13C-5D09-0248-7599931B8B89</referredTableID>
 <keyObject>219DFAAC-E397-BF74-2236-C97BAF1688C3</keyObject>
 <referredKeyID>219DFAAC-E397-BF74-2236-C97BAF1688C3</referredKeyID>
-<mandatory>true</mandatory>
+<mandatory>false</mandatory>
 <refColNames>CODIGO_CARPETA</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>

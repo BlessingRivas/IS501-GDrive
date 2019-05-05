@@ -32,6 +32,17 @@
 <colAssociation fkAssociation="5DCD6AD7-1923-2177-BC53-B00B455C37D7" referredColumn="9174BB7A-51BA-8AA0-DDCB-B545C453C8C5"/>
 </associations>
 </Column>
+<Column name="NOMBRE" id="D2E8A968-6612-7BAB-F524-09974582ECB3">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-05-01 13:55:37 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>250 CHAR</dataTypeSize>
+<ownDataTypeParameters>250 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="ESPACIO_ALMACENAMIENTO" id="C0237299-BDAF-7D1A-EE21-3364B1FBF7C8">
 <createdBy>Blessing Rivas</createdBy>
 <createdTime>2019-03-08 01:44:13 UTC</createdTime>

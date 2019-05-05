@@ -1,0 +1,54 @@
+CREATE SEQUENCE SEQ_CODIGO_FACTURA INCREMENT BY 1 START WITH 1;
+
+create or replace PROCEDURE P_AGREGAR_FACTURA(    
+    p_codigo_usuario tbl_facturas.codigo_usuario%TYPE,
+    p_codigo_medio_pago tbl_facturas.codigo_medio_pago%TYPE,
+    p_codigo_tipo_cuenta tbl_facturas.codigo_tipo_cuenta%TYPE,
+    p_fecha_facturacion VARCHAR2,
+    p_costo tbl_facturas.costo%TYPE,
+    p_impuesto tbl_facturas.impuesto%TYPE,
+    p_descuento tbl_facturas.descuento%TYPE,
+    p_codigo_resultado out VARCHAR2,
+    p_mensaje out VARCHAR2
+) AS
+    v_cantidad number;
+BEGIN
+    select count(*)
+    into v_cantidad
+    from tbl_facturas
+    where codigo_usuario = p_codigo_usuario;
+
+    IF (v_cantidad = 0) THEN
+        INSERT INTO tbl_facturas (
+            codigo_factura,
+            codigo_usuario,
+            codigo_medio_pago,
+            codigo_tipo_cuenta,
+            fecha_facturacion,
+            costo,
+            impuesto,
+            descuento
+        ) VALUES (
+            seq_codigo_factura.nextval,            
+            p_codigo_usuario,
+            p_codigo_medio_pago,
+            p_codigo_tipo_cuenta,
+            to_date(p_fecha_facturacion,'dd/mm/yyyy'),
+            p_costo,
+            p_impuesto,
+            p_descuento
+        );
+        commit;
+        p_mensaje := 'Registro almanceado con éxito';
+        p_codigo_resultado:=1;
+    ELSE
+        p_mensaje := 'La factura esta duplicada, no se pudo guardar';
+        p_codigo_resultado:=0;
+    END IF;
+EXCEPTION
+    WHEN OTHERS THEN
+        DBMS_OUTPUT.PUT_LINE('ERROR: ' || SQLCODE || '-'||SQLERRM);
+        ROLLBACK;
+        p_mensaje:= 'Error al ingresar la factura: ' || SQLCODE || '-'||SQLERRM;
+        p_codigo_resultado:=0;
+END;

@@ -1,0 +1,76 @@
+CREATE SEQUENCE SEQ_CODIGO_ORDENADOR INCREMENT BY 1 START WITH 1;
+
+create or replace PROCEDURE P_AGREGAR_ORDENADOR(    
+    p_codigo_usuario tbl_ordenadores.codigo_usuario%TYPE,
+    p_codigo_marca tbl_ordenadores.codigo_marca%TYPE,
+    p_codigo_sistema tbl_ordenadores.codigo_sistema%TYPE,
+    p_codigo_procesador tbl_ordenadores.codigo_procesador%TYPE,
+    p_direccion_mac tbl_ordenadores.direccion_mac%TYPE,
+    p_fecha_registro VARCHAR2,
+    p_capacidad_memoria tbl_ordenadores.capacidad_memoria%TYPE,
+    p_capacidad_disco tbl_ordenadores.capacidad_disco%TYPE,
+    p_codigo_resultado out VARCHAR2,
+    p_mensaje out VARCHAR2
+) AS
+    v_cantidad number;
+BEGIN
+    select count(*)
+    into v_cantidad
+    from tbl_ordenadores
+    where direccion_mac = p_direccion_mac;
+
+    IF (v_cantidad = 0) THEN
+        INSERT INTO tbl_ordenadores (
+            codigo_ordenador,
+            codigo_usuario,
+            codigo_marca,
+            codigo_sistema,
+            codigo_procesador,
+            direccion_mac,
+            fecha_registro,
+            capacidad_memoria,
+            capacidad_disco
+        ) VALUES (
+            seq_codigo_ordenador.nextval,            
+            p_codigo_usuario,
+            p_codigo_marca,
+            p_codigo_sistema,
+            p_codigo_procesador,
+            p_direccion_mac,
+            to_date(p_fecha_registro,'dd/mm/yyyy'),
+            p_capacidad_memoria,
+            p_capacidad_disco
+        );
+        commit;
+        p_mensaje := 'Registro almanceado con éxito';
+        p_codigo_resultado:=1;
+    ELSE
+        p_mensaje := 'El ordenador esta duplicado, no se pudo guardar';
+        p_codigo_resultado:=0;
+    END IF;
+EXCEPTION
+    WHEN OTHERS THEN
+        DBMS_OUTPUT.PUT_LINE('ERROR: ' || SQLCODE || '-'||SQLERRM);
+        ROLLBACK;
+        p_mensaje:= 'Error al ingresar el ordenador: ' || SQLCODE || '-'||SQLERRM;
+        p_codigo_resultado:=0;
+END;
+
+create or replace PROCEDURE P_ELIMINAR_ORDENADOR(
+    p_codigo_ordenador tbl_ordenadores.codigo_ordenador%TYPE,    
+    p_codigo_resultado out VARCHAR2,
+    p_mensaje out VARCHAR2
+) AS
+BEGIN
+     DELETE FROM  tbl_ordenadores where 
+           codigo_ordenador = p_codigo_ordenador;
+        commit;
+        p_mensaje := 'Registro eliminado con éxito';
+        p_codigo_resultado:=1;    
+EXCEPTION
+    WHEN OTHERS THEN
+        DBMS_OUTPUT.PUT_LINE('ERROR: ' || SQLCODE || '-'||SQLERRM);
+        ROLLBACK;
+        p_mensaje:= 'Error al ingresar el ordenador: ' || SQLCODE || '-'||SQLERRM;
+        p_codigo_resultado:=0;
+END;

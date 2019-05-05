@@ -18,8 +18,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<<<<<<< HEAD
-=======
 <Column name="CODIGO_VERSION" id="0A0DB6C7-2EE4-9A91-EFD1-9D2DC07F20EA">
 <createdBy>Blessing Rivas</createdBy>
 <createdTime>2019-03-08 20:30:16 UTC</createdTime>
@@ -34,7 +32,6 @@
 <colAssociation fkAssociation="18264CBA-F10F-80DD-E911-02BFF5C2A864" referredColumn="AE4686FD-749E-EEC2-C0FD-3E95DEF63E7D"/>
 </associations>
 </Column>
->>>>>>> a4589982ec34b2899e43754e21a2a5e69e16de17
 <Column name="NOMBRE_SISTEMA" id="DF643FBF-EE00-6E9E-C18F-EBBAA9B93F44">
 <createdBy>Blessing Rivas</createdBy>
 <createdTime>2019-03-08 20:27:32 UTC</createdTime>
@@ -59,8 +56,6 @@
 <colUsage columnID="0DB71BDA-0211-173B-92AD-9813D67F2CEB"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<<<<<<< HEAD
-=======
 <ind_PK_UK id="665E1FD5-A6B3-C443-FE68-CEF85271D123" name="SIS_OPE_VER_FK">
 <createdBy>Blessing Rivas</createdBy>
 <createdTime>2019-03-08 20:30:16 UTC</createdTime>
@@ -71,6 +66,5 @@
 <colUsage columnID="0A0DB6C7-2EE4-9A91-EFD1-9D2DC07F20EA"/>
 </indexColumnUsage>
 </ind_PK_UK>
->>>>>>> a4589982ec34b2899e43754e21a2a5e69e16de17
 </indexes>
 </Table>

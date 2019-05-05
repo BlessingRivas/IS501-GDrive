@@ -18,10 +18,25 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="CODIGO_USUARIO" id="87F583B8-B140-22A6-D5D1-33C84008D2D4">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-05-03 14:47:39 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7A4723CD-BCB5-7E78-52C5-3C6F04F769E1" referredColumn="F16E48BB-1C77-1358-1F50-9BDE254A21C3"/>
+</associations>
+</Column>
 <Column name="CODIGO_CARPETA" id="3763BF41-2CBF-58C3-B0AE-4BB4AC40D009">
 <createdBy>Blessing Rivas</createdBy>
 <createdTime>2019-03-08 17:39:47 UTC</createdTime>
 <ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -117,7 +132,7 @@
 <ownerDesignName>Relacional_Google_Drive</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT029</logicalDatatype>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -197,6 +212,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="76FB0B18-DE98-363B-F7AA-3C79A9A7BB79"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F484C800-6888-4F56-10F7-9A03BE2800E5" name="ARC_USU_FK">
+<createdBy>Blessing Rivas</createdBy>
+<createdTime>2019-05-03 14:47:39 UTC</createdTime>
+<ownerDesignName>Relacional_Google_Drive</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87F583B8-B140-22A6-D5D1-33C84008D2D4"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
